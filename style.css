@@ -235,7 +235,8 @@ nav {
 }
 
 .about-me__img {
-  width: 100%;
+  width: 80%;
+  padding-left: 150px;
   animation: fade-in 1200ms 800ms backwards;
 
   padding-top: 80px;
@@ -317,7 +318,7 @@ nav {
 /* PROJECTS */
 
 .project {
-  margin-bottom: 135px;
+  margin-bottom: 65px;
 }
 
 .project:last-child {
@@ -332,7 +333,7 @@ nav {
 .project__wrapper {
   display: flex;
   box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
-  border-radius: 20px;
+  border-radius: 8px;
   overflow: hidden;
   position: relative;
 }
